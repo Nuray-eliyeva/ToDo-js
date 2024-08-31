@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    background-color: rgb(162, 199, 252);
+    padding: 20px;
+    font-family: "Nerko One", cursive;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+#todo{
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 30px;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   
+}
+.todo-top{
+    display: flex;
+    justify-content: space-between;
+}
+.todo-top input{
+    border: none;
+    outline: none;
+    /*width: 80%;*/
+    background-color: rgb(162, 199, 252);
+    padding: 10px ;
+    border-radius: 10px;
+    color:white;
+    font-size: 20px;
+    font-family: "Nerko One", cursive;
+}
+.btn{
+    padding: 10px;
+    background-color: rgb(162, 199, 252);
+    color: white;
+    border:none;
+    border-radius: 15px;
+    font-size: 20px;
+    border: 2px solid rgb(162, 199, 252);
+    font-family: "Nerko One", cursive;
+    margin-left: 5px;
+}
+.btn:hover{
+    color: rgb(162, 199, 252);
+    background-color: white;
+  
+}
+.todo-botm .todos{
+    border: 2px solid rgb(162, 199, 252);
+    display: flex;
+   
+   padding: 10px;
+    margin-bottom: 15px;
+     border-radius: 15px;
+     color:  rgb(162, 199, 252);
+     font-size: 20px;
+}
+.todo-txt{
+    width: 80%;
+    overflow-x: hidden;
+    
+}
+.complated .todo-txt{
+    opacity: 0.7;
+    text-decoration: line-through rgb(0, 49, 118);
+}
+.todos:hover{
+    background-color: rgb(162, 199, 252);
+    color: white;
+}
+
+
